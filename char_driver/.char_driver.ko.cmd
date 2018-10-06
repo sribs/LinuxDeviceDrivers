@@ -1,0 +1,1 @@
+cmd_/home/elite/DevDrivers/char_driver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/elite/DevDrivers/char_driver.ko /home/elite/DevDrivers/char_driver.o /home/elite/DevDrivers/char_driver.mod.o ;  true
